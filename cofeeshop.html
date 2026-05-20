@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body
+        {
+            background:url('https://texascoffeeschool.com/wp-content/uploads/2021/10/DSC_0052-scaled.jpg');
+            background-repeat: no-repeat;
+            background-position:center center ;
+            height: 120vh;
+            background-size:cover;
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            
+        }
+        .login-container{
+            background-color:rgb(157, 212, 225);
+            width:15%;
+            padding: 80px;
+            height: 100vh;
+            border-radius:10px;
+            text-align: center;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-top-right-radius: 30px;
+
+        }
+        .text1{
+        color:navy;
+        }
+        .text2{
+        height:30px;
+        width:100%;
+        font-size:1rem;
+        color: crimson;
+        background-color: rgb(250, 251, 252);
+        border-radius: 10px;
+        font-style: italic;
+        text-align: center;
+
+        }
+        .text3{
+        color:rgb(9, 28, 149)
+        }
+        .btn{
+        color: mediumblue;
+        }
+        .button{
+        height:30px;
+        width:100%;
+        background-color: rgb(6, 48, 125);
+        color: rgb(61, 138, 17);
+        cursor: pointer;
+        border-radius: 10px;
+        }
+</style>
+<body>
+    <div class="login-container">
+        <h1 class="text1"><em>Profile page</em></h1><br>
+        <!--first name-->
+        <label><em>First name:</em></label>
+        <input class="text2" type="text" id="ak" name="name" placeholder="user first name"></input><br>
+        <!--lastname-->
+        <label><em>Last name:</em></label>
+        <input class="text2" type="text2" id="ak" name="name" placeholder="user last name"></input><br>
+        <!--password-->
+        <label><em>Passoword:</em></label>
+        <input class="text2" type="password" id="ak" name="name" placeholder="user passoword"></input><br>
+        <!--re-enter password-->
+        <label><em>Re-Enter passoword:</em></label>
+        <input class="text2" type="password" id="ak" name="name" placeholder="re-enter passoword"></input><br>
+        <!--phone number-->
+        <label><em>Phone Number:</em></label>
+        <input class="text2" type="phone number" id="ak" name="name" placeholder="enter the phone number"></input><br>
+        <!--email-->
+        <label><em>Email:</em></label>
+        <input class="text2" type="email" id="ak" name="name" placeholder="enter your email"></input><br>
+        <!--adress-->
+        <label><em>Address:</em></label>
+        <input class="text2" type="adress" id="ak" name="name" placeholder="enter your adress"></input><br>
+        <!--gender-->
+        <label><em>Gender:</em></label><br>
+        <input type="checkbox" id="ak" name="name"><em>Male</em></input>
+        <input type="checkbox" id="ak" name="name"><em>Female</em></input><br>
+        <!--higher qualification-->
+        <label><em>Higher Qualification:</em></label><br>
+        <input type="radio" id="ak" name="name" value="Inter">Inter</input>
+        <input type="radio" id="ak" name="name" value="UG">UG</input>
+        <input type="radio" id="ak" name="name" value="PG">PG</input><br>
+        <!--remarks-->
+        <label class="text3"><em>Remarks:</em></label><br>
+        <input class="btn" type="radio" id="5g4" name="radio" value="option1">Excellent</input>
+        <input class="btn" type="radio" id="5g4" name="radio" value="option2">Good</input>
+        <input class="btn" type="radio" id="5g4" name="radio" value="option3">Bad</input><br><br>
+        <!--terms and conditions-->
+        <label class="text3"><em>Terms And Conditions:</em></label><br>
+        <input class="btn" type="checkbox" id="5g" name="checkbox" value="option1">you does cancel your order</input><br>
+        <input class="btn" type="checkbox" id="5g" name="checkbox" value="option2">There is only online payment</input><br><br>
+        <!--button-->
+        <button class="button" type="submit"><em>Submit</em></button>
+
+    </div>
+
+</body>
+</html
